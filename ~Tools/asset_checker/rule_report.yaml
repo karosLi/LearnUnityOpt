@@ -1,0 +1,1432 @@
+- category: Texture
+  rules:
+  - name: Texture useless alpha channel
+    results:
+    - asset: Assets/Suntail Village/Textures/Nature/Bark_Albedo.png
+      advice: Alpha Source flag for textures with empty Alpha channel should be turned
+        off
+    - asset: Assets/Suntail Village/Textures/Background Terrains/Mountain_1_Albedo.png
+      advice: Alpha Source flag for textures with empty Alpha channel should be turned
+        off
+    - asset: Assets/Suntail Village/Textures/Background Terrains/Mountain_2_Albedo.png
+      advice: Alpha Source flag for textures with empty Alpha channel should be turned
+        off
+    - asset: Assets/Suntail Village/Textures/Nature/Grass_Smoothness_2.png
+      advice: Alpha Source flag for textures with empty Alpha channel should be turned
+        off
+    - asset: Assets/Suntail Village/Textures/Nature/Grass_Smoothness_1.png
+      advice: Alpha Source flag for textures with empty Alpha channel should be turned
+        off
+    - asset: Assets/Suntail Village/Textures/Background Terrains/Mountain_3_Albedo.png
+      advice: Alpha Source flag for textures with empty Alpha channel should be turned
+        off
+    - asset: Assets/Suntail Village/Textures/Background Terrains/Mountain_4_Albedo.png
+      advice: Alpha Source flag for textures with empty Alpha channel should be turned
+        off
+  - name: Texture over sizes
+    results:
+    - asset: Assets/Suntail Village/Textures/Nature/Bark_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Shop_1_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Nature/Water_Waves.bmp
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Anvil_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Picture_2_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Cart_2_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Cupboard_1_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Picture_3_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Bridge_centre_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Building Modules/Fireplace_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Bridge_left_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Anvil_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Boiler_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Props/Log_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Rack_1_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Сallboard_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Сallboard_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Background Terrains/Mountain_4_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Background Terrains/Mountain_1_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Background Terrains/Mountain_3_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Chest_3_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Terrain/Mud_1_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_2_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Lamp_1_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Food_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Bag_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Bed_1_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Picture_3_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Chandelier_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Bridge_right_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Chair_1_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Wall_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Building Modules/Fireplace_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Fence_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Box_1_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Box_2_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Table_1_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Food_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Table_1_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Chest_1_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_1_Box_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Shop_2_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Background Terrains/Mountain_1_Normal.PNG
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Carpet_1_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Background Terrains/Mountain_3_Normal.PNG
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Props/Picture_2_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Cart_1_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Props/Forge_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Props/Tableware_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Carpet_2_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Well_1_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_4_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Chandelier_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Bridge_right_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Nature/Stone_3_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Lamp_2_Emission.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_2_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_3_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Horns_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_4_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Rack_2_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Bed_2_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Glass_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Nature/Branch_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Masonry_1_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Lamp_1_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Bag_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Lamp_3_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Lamp_3_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Lantern_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Lamp_2_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_3_Box_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Shop_2_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Bridge_right_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Bridge_centre_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Barrel_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Boiler_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Background Terrains/Mountain_4_Normal.PNG
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Rack_3_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Wood_1_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Building Modules/Metal_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Box_1_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_3_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Carpet_2_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Box_2_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Cupboard_1_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Lamp_3_Emission.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Well_1_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Cart_2_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Rack_2_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_1_Box_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Wood_2_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Chest_2_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Nature/Stone_2_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Props/Picture_1_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_1_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Cart_3_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_3_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Boat_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Box_1_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Table_2_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Props/Picture_2_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Candles_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Background Terrains/Mountain_2_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Picture_1_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Chest_3_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Props/Tableware_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Cart_3_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Bed_1_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Building Modules/Stone_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Terrain/Grass_1_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Terrain/Mud_1_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Cart_1_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_1_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Building Modules/Boards_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Picture_4_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Bed_2_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Well_2_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Carpet_2_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Boards_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Table_1_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Boiler_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Carpet_3_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_1_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_3_Box_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Bridge_centre_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Chair_2_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Lamp_1_Emission.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Rack_1_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Rack_2_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Table_2_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Rack_3_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Bridge_left_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_4_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Carpet_3_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Props/Forge_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Cart_2_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Lantern_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Terrain/Tile_1_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Well_2_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Terrain/Ground_1_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Carpet_1_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Chest_1_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Picture_4_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Terrain/Tile_1_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Boat_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Roof_2_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Cupboard_1_Box_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Nature/Stone_1_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Building Modules/Masonry_1_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Chair_1_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Chest_3_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Chest_1_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Cupboard_1_Box_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Bonfire_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Anvil_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Picture_3_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Bag_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Well_1_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Horns_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Table_2_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Cupboard_2_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Bridge_left_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Cupboard_1_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Chair_1_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Bonfire_Emission.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Fence_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Terrain/Grass_1_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Building Modules/Roof_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Nature/Stone_1_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Carpet_3_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Lamp_2_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Cart_3_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_2_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Chandelier_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Building Modules/Stone_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Building Modules/Wood_1_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Barrel_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Wall_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Chair_2_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Smelter_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Shop_1_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Lantern_Emission.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Rack_1_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Rack_3_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_3_Box_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Metal_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Background Terrains/Mountain_2_Normal.PNG
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Carpet_1_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Cupboard_2_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Shop_3_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Commode_1_Box_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Nature/Stone_2_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Fence_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Chest_2_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Terrain/Tile_2_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Shop_1_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Terrain/Mud_2_normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Terrain/Ground_1_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Сallboard_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Terrain/Mud_2_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Shop_3_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Fireplace_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Boat_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Log_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Props/Tableware_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Nature/Branch_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Nature/Bark_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Wood_2_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Lamp_1_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Picture_4_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Roof_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Cart_1_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Planks_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Bed_2_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Masonry_2_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Building Modules/Planks_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Lamp_3_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Chest_2_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Smelter_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Lamp_2_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Bonfire_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Bonfire_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Barrel_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Smelter_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Candles_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Props/Picture_1_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Food_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Roof_2_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Props/Forge_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Horns_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Shop_3_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Shop_2_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Candles_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Lantern_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Terrain/Tile_2_AlbedoSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Smelter_Emission.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Box_2_Albedo.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Bed_1_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Well_2_MetallicSmoothness.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Building Modules/Glass_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Nature/Stone_3_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Cupboard_2_Albedo.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Cupboard_1_Box_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Environment/Log_Normal.png
+      advice: Texture is larger than 512 * 512
+    - asset: Assets/Suntail Village/Textures/Building Modules/Masonry_2_Normal.png
+      advice: Texture is larger than 1024 * 1024
+    - asset: Assets/Suntail Village/Textures/Environment/Chair_2_MetallicSmoothness.png
+      advice: Texture is larger than 512 * 512
+  - name: Duplicate textures
+    results:
+    - asset: Assets/Suntail Village/Textures/Environment/Picture_2_Normal.png
+      advice: Texture Duplicate, Duplicate with Assets/Suntail Village/Textures/Environment/Picture_4_Normal.png
+    - asset: Assets/Suntail Village/Textures/Environment/Picture_3_MetallicSmoothness.png
+      advice: Texture Duplicate, Duplicate with Assets/Suntail Village/Textures/Props/Picture_1_MetallicSmoothness.png
+    - asset: Assets/Suntail Village/Textures/Environment/Picture_3_Normal.png
+      advice: Texture Duplicate, Duplicate with Assets/Suntail Village/Textures/Props/Picture_1_Normal.png
+    - asset: Assets/Suntail Village/Textures/Environment/Picture_4_MetallicSmoothness.png
+      advice: Texture Duplicate, Duplicate with Assets/Suntail Village/Textures/Props/Picture_2_MetallicSmoothness.png
+  - name: Texture size NPOT
+    results:
+    - asset: Assets/Suntail Village/Demo/Fonts/Raygeas Logo.png
+      advice: Texture size is not power-of-two
+  - name: Texture pure color
+    results:
+    - asset: Assets/Suntail Village/Textures/Environment/Carpet_3_Normal.png
+      advice: Pure color texture may waste memory
+- category: FBX
+  rules:
+  - name: Animation OptimizeGameObjects
+    results:
+    - asset: Assets/Suntail Village/Models/Environment/Fence_4.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Cheese_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Case_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Picture_4.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Ivy_4_R.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Background Terrains/Mountain_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Carrot_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Cupboard_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Axe.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Carpet_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Candles_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Baton_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Candles_4.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Picture_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Lamp_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Shop_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Cupboard_1_Box.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bridge_left.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Claws.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Washtub.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Log_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Case_and_food_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Fish.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Picture_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Log_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Commode_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Books_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Table_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Rack_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Cup.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Shelf_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Chair_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Smelter.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Background Terrains/Mountain_4.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bag_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Maul.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Background Terrains/Mountain_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Background Terrains/Mountain_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Indoor Modules/Frame_Wall_1_D_Indoor.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Books_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Baton_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Picture_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Nature/Stone_4.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Pot_5.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Pot_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Meat_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Shield_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Table_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Tomato_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bonfire.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Rack_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Plate_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Pot_6.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Fence_6.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Carpet_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Cart_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Boiler.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Log_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Lamp_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Anvil.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Chest_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Case_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Bucket.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Well_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bag_4.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Shop_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Carrot_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Cheese_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Fence_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Indoor Modules/Fireplace_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Indoor Modules/Frame_Wall_2_Indoor.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Nature/Stone_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Chair_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Candles_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Lantern_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Ivy_5_L.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Pumpkin.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Boat.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Apple_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Ivy_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Bottle_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Pot_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Candles_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bridge_centre.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Commode_1_Box.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Ivy_5_R.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Lantern_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Indoor Modules/Stone_Wall_Indoor.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Cupboard_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Shop_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Box_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Chandelier_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bag_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Shelf_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bed_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Commode_3_Box.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Fence_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Ladder.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Commode_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Chest_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Hoe.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Сallboard.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Pot_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Indoor Modules/Fireplace_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Shield_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Doors And Windows/Wooden_Door_1_W.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Commode_4.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Commode_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Indoor Modules/Fireplace_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Rack_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Ivy_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Ivy_4_L.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Well_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Ivy_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Tomato_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Fence_5.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bed_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Bottle_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Fence_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bag_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Box_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Plate_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Flovers_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Barrel.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Cart_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Lamp_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Cart_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Books_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bridge_right.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Chandelier_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Fence_7.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Carpet_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Apple_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Bottle_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Horns.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Poleaxe.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Pot_4.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Shovel.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Rake.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Nature/Stone_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Sword_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Meat_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Case_and_food_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Nature/Stone_2.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Case_and_food_3.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Chest_1.fbx
+      advice: OptimizeGameObjects should be true for Animation asset
+  - name: Animation Compression Optimal
+    results:
+    - asset: Assets/Suntail Village/Models/Props/Bottle_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Case_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Bottle_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Poleaxe.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Pot_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Candles_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Cupboard_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Axe.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Picture_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Candles_4.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Lamp_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bridge_right.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Cupboard_1_Box.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Carrot_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Claws.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Washtub.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Cheese_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Fence_6.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Log_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Table_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Picture_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Shelf_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Rack_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Cup.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Pumpkin.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Well_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Chest_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Baton_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Fence_5.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Case_and_food_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Shield_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Table_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Meat_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Background Terrains/Mountain_4.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Commode_3_Box.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Shield_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Plate_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Nature/Stone_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bridge_centre.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Case_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Lamp_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Log_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Carpet_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Barrel.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Chest_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Chest_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Lamp_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Cart_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Ivy_4_R.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Background Terrains/Mountain_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Fence_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Ladder.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bag_4.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Books_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Fence_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Cart_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Chair_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Indoor Modules/Fireplace_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Indoor Modules/Fireplace_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Nature/Stone_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Lantern_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Indoor Modules/Fireplace_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Chair_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Pot_6.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Fish.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Ivy_5_L.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Commode_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Horns.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Bucket.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Boat.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Apple_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Commode_1_Box.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Cheese_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Pot_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Rack_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Shovel.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Ivy_5_R.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Lantern_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Candles_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Doors And Windows/Wooden_Door_1_W.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Commode_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Carpet_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Chandelier_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Shop_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Tomato_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Rack_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Ivy_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Indoor Modules/Stone_Wall_Indoor.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bag_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Shop_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bridge_left.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Shop_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Plate_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Hoe.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Shelf_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Anvil.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Box_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Pot_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Pot_5.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Сallboard.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Picture_4.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Rake.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Log_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Commode_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Cupboard_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Ivy_4_L.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Fence_4.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Maul.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Ivy_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Well_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Fence_7.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Picture_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bed_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Chandelier_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Bottle_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bag_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Tomato_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Box_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Books_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Flovers_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Candles_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Boiler.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Cart_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Indoor Modules/Frame_Wall_1_D_Indoor.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Books_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bed_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Fence_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Carpet_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Apple_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Commode_4.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Nature/Stone_4.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Meat_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Ivy_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Pot_4.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bonfire.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Carrot_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Background Terrains/Mountain_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Smelter.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Building Modules/Indoor Modules/Frame_Wall_2_Indoor.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Nature/Stone_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Sword_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Case_and_food_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Case_and_food_1.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Environment/Bag_3.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Props/Baton_2.fbx
+      advice: Compression should be Optimal for Animation asset
+    - asset: Assets/Suntail Village/Models/Background Terrains/Mountain_3.fbx
+      advice: Compression should be Optimal for Animation asset
+  - name: FBX Vertex Count
+    results:
+    - asset: Assets/Suntail Village/Models/Environment/Candles_2.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 630
+    - asset: Assets/Suntail Village/Models/Environment/Candles_4.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 502
+    - asset: Assets/Suntail Village/Models/Environment/Case_and_food_1.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 544
+    - asset: Assets/Suntail Village/Models/Environment/Smelter.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 531
+    - asset: Assets/Suntail Village/Models/Background Terrains/Mountain_4.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 3341
+    - asset: Assets/Suntail Village/Models/Background Terrains/Mountain_3.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 3348
+    - asset: Assets/Suntail Village/Models/Background Terrains/Mountain_1.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 3341
+    - asset: Assets/Suntail Village/Models/Nature/Broadleaf_3.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 1799
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Flovers_1.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 632
+    - asset: Assets/Suntail Village/Models/Background Terrains/Mountain_2.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 3379
+    - asset: Assets/Suntail Village/Models/Environment/Well_1.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 516
+    - asset: Assets/Suntail Village/Models/Environment/Case_and_food_3.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 587
+    - asset: Assets/Suntail Village/Models/Environment/Lantern_2.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 588
+    - asset: Assets/Suntail Village/Models/Environment/Candles_3.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 808
+    - asset: Assets/Suntail Village/Models/Nature/Broadleaf_2.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 1250
+    - asset: Assets/Suntail Village/Models/Environment/Shop_1.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 1160
+    - asset: Assets/Suntail Village/Models/Environment/Chandelier_1.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 1582
+    - asset: Assets/Suntail Village/Models/Environment/Shop_3.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 800
+    - asset: Assets/Suntail Village/Models/Environment/Shop_2.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 868
+    - asset: Assets/Suntail Village/Models/Nature/Broadleaf_1.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 1223
+    - asset: Assets/Suntail Village/Models/Environment/Cart_3.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 602
+    - asset: Assets/Suntail Village/Models/Environment/Cart_2.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 538
+    - asset: Assets/Suntail Village/Models/Environment/Cart_1.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 570
+    - asset: Assets/Suntail Village/Models/Environment/Carpet_2.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 998
+    - asset: Assets/Suntail Village/Models/Environment/Chandelier_2.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 4488
+    - asset: Assets/Suntail Village/Models/Building Modules/Decor/Ivy_1.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 604
+    - asset: Assets/Suntail Village/Models/Environment/Case_and_food_2.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 742
+    - asset: Assets/Suntail Village/Models/Nature/Bush_1.fbx
+      advice: Too many vertices in FBX asset, Vertex count is 904
+- category: EditorSetting
+  rules:
+  - name: Editor BakeCollisionMeshes Setting
+    results:
+    - asset: ''
+      advice: Consider enabling Prebake Collision Meshes if physics is used in project
+  - name: CompanyName should be set
+    results:
+    - asset: ''
+      advice: CompanyName should not be DefaultCompany
+  - name: Editor GraphicsJobs Setting
+    results:
+    - asset: ''
+      advice: Try enabling graphicJobs and testing your application
+  - name: Editor Physics2D LayerCollisionMatrix Setting
+    results:
+    - asset: ''
+      advice: Boxes of LayerCollisionMatrix should not be all ticked in Physics2D
+  - name: Editor Physics LayerCollisionMatrix Setting
+    results:
+    - asset: ''
+      advice: Boxes of LayerCollisionMatrix should not be all ticked in Physics
+  - name: Editor AndroidManagedStrippingLevel Setting
+    results:
+    - asset: ''
+      advice: ManagedStrippingLevel in Android should not be Low or Disabled, Change
+        it to Medium or High
+- category: Audio
+  rules:
+  - name: Force to Mono
+    results:
+    - asset: Assets/Suntail Village/Audio/Footsteps/Dirt/Footstep_Dirt_5.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Wood/Footstep_Wood_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Stone/Footstep_Stone_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Metal_Axe_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Stone/Footstep_Stone_4.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Wood/Footstep_Wood_4.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Wood_Long_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Forest/Birds_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Metal_Hammer_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Metal_Sword_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Metal_Shield_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Plate_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Wood_Small_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Food_Large_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Stone/Footstep_Stone_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Wood/Footstep_Wood_5.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Grass/Footstep_Grass_5.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Grass/Footstep_Grass_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Wood/Footstep_Wood_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Grass/Footstep_Grass_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Metal_Instrument_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Dirt/Footstep_Dirt_4.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Dirt/Footstep_Dirt_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Stone/Footstep_Stone_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Forest/Wind_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Wood_Box_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Metal_Axe_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Wood/Footstep_Wood_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Forest/Forest_Insects.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Plate_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Food_Large_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Book_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Metal_Shield_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Wood_Small_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Wood_Long_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Forest/Wind_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Water/Water_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Food_Small_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Forest/Wind_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Forest/Birds_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Wood_Box_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Doors/Door_Squeak_4.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Food_Small_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Water/Water_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Water/Water_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Dirt/Footstep_Dirt_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Book_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Food_Small_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Dirt/Footstep_Dirt_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Metal_Hammer_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Book_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Wood_Box_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Plate_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Food_Large_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Forest/Birds_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Metal_Axe_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Metal_Hammer_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Stone/Footstep_Stone_5.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Doors/Door_Squeak_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Metal_Sword_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Doors/Door_Squeak_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Grass/Footstep_Grass_4.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Metal_Shield_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Metal_Sword_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Forest/Wind_4.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Wood_Small_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Metal_Instrument_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Wood_Long_3.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Water/Water_4.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Items/Item_Metal_Instrument_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Doors/Door_Squeak_2.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Suntail - Mild Flight.wav
+      advice: Sound should enable forceMono to save both storage and memory
+    - asset: Assets/Suntail Village/Audio/Footsteps/Grass/Footstep_Grass_1.wav
+      advice: Sound should enable forceMono to save both storage and memory
+  - name: Audio load type
+    results:
+    - asset: Assets/Suntail Village/Audio/Fire/Fire_2.wav
+      advice: Music for default should use Streaming
+    - asset: Assets/Suntail Village/Audio/Forest/Wind_4.wav
+      advice: Music for default should use Streaming
+    - asset: Assets/Suntail Village/Audio/Forest/Wind_1.wav
+      advice: Music for default should use Streaming
+    - asset: Assets/Suntail Village/Audio/Forest/Birds_3.wav
+      advice: Music for default should use Streaming
+    - asset: Assets/Suntail Village/Audio/Forest/Birds_2.wav
+      advice: Music for default should use Streaming
+    - asset: Assets/Suntail Village/Audio/Water/Water_1.wav
+      advice: Music for default should use Streaming
+    - asset: Assets/Suntail Village/Audio/Forest/Forest_Insects.wav
+      advice: Music for default should use Streaming
+    - asset: Assets/Suntail Village/Audio/Enviroment/Doors/Door_Squeak_4.wav
+      advice: Normal sound effect for default should use CompressedInMemory
+    - asset: Assets/Suntail Village/Audio/Forest/Wind_3.wav
+      advice: Music for default should use Streaming
+    - asset: Assets/Suntail Village/Audio/Forest/Wind_2.wav
+      advice: Music for default should use Streaming
+    - asset: Assets/Suntail Village/Audio/Water/Water_3.wav
+      advice: Music for default should use Streaming
+    - asset: Assets/Suntail Village/Audio/Forest/Birds_1.wav
+      advice: Music for default should use Streaming
+    - asset: Assets/Suntail Village/Audio/Water/Water_2.wav
+      advice: Music for default should use Streaming
+    - asset: Assets/Suntail Village/Audio/Fire/Fire_1.wav
+      advice: Music for default should use Streaming
+    - asset: Assets/Suntail Village/Audio/Water/Water_4.wav
+      advice: Music for default should use Streaming
+    - asset: Assets/Suntail Village/Audio/Suntail - Mild Flight.wav
+      advice: Music for default should use Streaming
+    - asset: Assets/Suntail Village/Audio/Enviroment/Doors/Door_Squeak_2.wav
+      advice: Normal sound effect for default should use CompressedInMemory
+    - asset: Assets/Suntail Village/Audio/Enviroment/Doors/Door_Squeak_1.wav
+      advice: Normal sound effect for default should use CompressedInMemory
+- category: Prefab
+  rules:
+  - name: Prefab particle system prewarm
+    results:
+    - asset: Assets/Suntail Village/Prefabs/FX/GodRays.prefab
+      advice: Enable prewarm in particle system may cause lagging in games
+    - asset: Assets/Suntail Village/Prefabs/FX/Smoke.prefab
+      advice: Enable prewarm in particle system may cause lagging in games
+    - asset: Assets/Suntail Village/Prefabs/FX/Fire.prefab
+      advice: Enable prewarm in particle system may cause lagging in games
+- category: Scene
+  rules:
+  - name: Scene Undefined Tag
+    results:
+    - asset: Assets/Suntail Village/Demo/Objects.unity
+      advice: Such scene contains untagged game objects
+    - asset: Assets/Scenes/SampleScene.unity
+      advice: Such scene contains untagged game objects
+    - asset: Assets/Suntail Village/Demo/Suntail Village.unity
+      advice: Such scene contains untagged game objects
+  - name: Scene Mesh Collider
+    results:
+    - asset: Assets/Suntail Village/Demo/Objects.unity
+      advice: Such scene contains mesh collider
+  - name: Scene Render Setting
+    results:
+    - asset: Assets/Suntail Village/Demo/Objects.unity
+      advice: Render setting of fog should be turned off for mobile platforms
+    - asset: Assets/Suntail Village/Demo/Suntail Village.unity
+      advice: Render setting of fog should be turned off for mobile platforms

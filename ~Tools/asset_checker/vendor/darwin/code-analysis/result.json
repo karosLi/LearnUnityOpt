@@ -1,0 +1,13 @@
+{"Date":"2025-03-02T16:28:46.704055+08:00","Diagnostics":[
+    {
+      "Id": "UCA100000",
+      "FileName": "/Users/karosli/Documents/Study/Unity/UnityProject/LearnUnityOpt/Assets/Suntail Village/Scripts/PlayerInteractions.cs 61,25"
+    },
+    {
+      "Id": "UCA100189",
+      "FileName": "/Users/karosli/Documents/Study/Unity/UnityProject/LearnUnityOpt/Assets/Suntail Village/Scripts/PlayerController.cs 97,33"
+    },
+    {
+      "Id": "UCA100039",
+      "FileName": "/Users/karosli/Documents/Study/Unity/UnityProject/LearnUnityOpt/Assets/Suntail Village/Scripts/PlayerController.cs 241,33"
+    }],"Exceptions":[],"IgnoreFiles":[],"CsharpDuration":"00:00:04.8033910","TotalFiles":16,"EffectiveFiles":2,"EffectiveIssues":3,"TotalDuration":"00:00:04.8152460"}

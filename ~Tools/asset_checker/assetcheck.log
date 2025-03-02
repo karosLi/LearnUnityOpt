@@ -1,0 +1,29 @@
+2025-03-02 14:24:08,919 INFO: Current version is 1.19.22
+2025-03-02 14:24:08,919 INFO: {'action': 'generate-config', 'projectId': None, 'config': 'config.yaml', 'project': '.', 'editorPath': None, 'serverIp': None, 'uploadServer': None, 'browseServer': None, 'includePaths': None, 'excludePaths': None, 'platform': 'Android', 'groupReportByAsset': False, 'groupReportByRule': True, 'logFile': 'assetcheck.log', 'fixFile': 'fix_report.yaml', 'ruleReportFile': 'rule_report.yaml', 'assetReportFile': 'asset_report.yaml', 'reportLanguage': 'en'}
+2025-03-02 14:24:08,920 WARNING: No project id provided, report will not be uploaded to upr server
+2025-03-02 14:24:08,972 INFO: Config template generated at: config.yaml
+2025-03-02 14:26:17,733 INFO: Current version is 1.19.22
+2025-03-02 14:26:17,733 INFO: {'action': 'check', 'projectId': '73472f18-c8d5-401e-9913-76a47afa2e6f', 'config': 'config.yaml', 'project': '~/Documents/Study/Unity/UnityProject/LearnUnityOpt', 'editorPath': None, 'serverIp': None, 'uploadServer': None, 'browseServer': None, 'includePaths': None, 'excludePaths': None, 'platform': 'Android', 'groupReportByAsset': False, 'groupReportByRule': True, 'logFile': 'assetcheck.log', 'fixFile': 'fix_report.yaml', 'ruleReportFile': 'rule_report.yaml', 'assetReportFile': 'asset_report.yaml', 'reportLanguage': 'en'}
+2025-03-02 14:26:17,734 INFO: projectSetting file not found, please check project
+2025-03-02 14:26:17,735 INFO: Use assetcheck -h to see the help
+2025-03-02 14:27:05,763 INFO: Current version is 1.19.22
+2025-03-02 14:27:05,763 INFO: {'action': 'check', 'projectId': '73472f18-c8d5-401e-9913-76a47afa2e6f', 'config': 'config.yaml', 'project': '/Users/karosli/Documents/Study/Unity/UnityProject/LearnUnityOpt', 'editorPath': None, 'serverIp': None, 'uploadServer': None, 'browseServer': None, 'includePaths': None, 'excludePaths': None, 'platform': 'Android', 'groupReportByAsset': False, 'groupReportByRule': True, 'logFile': 'assetcheck.log', 'fixFile': 'fix_report.yaml', 'ruleReportFile': 'rule_report.yaml', 'assetReportFile': 'asset_report.yaml', 'reportLanguage': 'en'}
+2025-03-02 14:27:05,907 INFO: Loading assets...
+2025-03-02 14:27:21,491 INFO: 3 Animation assets loaded
+2025-03-02 14:27:21,492 INFO: 84 Audio assets loaded
+2025-03-02 14:27:21,492 INFO: 203 FBX assets loaded
+2025-03-02 14:27:21,492 INFO: 104 Material assets loaded
+2025-03-02 14:27:21,492 INFO: 225 Prefab assets loaded
+2025-03-02 14:27:21,492 INFO: 3 Scene assets loaded
+2025-03-02 14:27:21,492 INFO: 8 Script assets loaded
+2025-03-02 14:27:21,492 INFO: 3 Shader assets loaded
+2025-03-02 14:27:21,492 INFO: 300 Texture assets loaded
+2025-03-02 14:27:21,492 INFO: Checking assets...
+2025-03-02 14:27:32,473 INFO: All assets checked, submitting report...
+2025-03-02 14:27:32,949 INFO: Report submitted to server, visit https://upr.unity.cn/asset-check/96dc2ca0-cec1-4dfa-b2cd-2a018ce41e8e to check results
+2025-03-02 14:27:32,950 INFO: Saving report locally...
+2025-03-02 14:27:33,079 INFO: Report by rule saved to: rule_report.yaml
+2025-03-02 14:27:33,141 INFO: Auto fix operations report saved to: fix_report.yaml
+2025-03-02 14:27:33,141 INFO: Ready to analyze C# scripts at: /Users/karosli/Documents/Study/Unity/UnityProject/LearnUnityOpt
+2025-03-02 14:27:57,511 INFO: View Results on https://upr.unity.cn/code-analysis/88516ecd-958a-40a8-a10c-df3732022ec5
+2025-03-02 14:27:57,513 DEBUG: Process duration for asset checking: 51.75070595741272
